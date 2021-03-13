@@ -22,7 +22,8 @@ export class Tab1Page {
     native.brightness(1); // Open native modal
   }
 
-  rateMyApp() {
+  async rateMyApp() {
+    console.log('====== 0 ========');
     native.rateMyApp(); // Open rate my app dialog
   }
 }
